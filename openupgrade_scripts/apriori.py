@@ -4,6 +4,8 @@ to help the matching process
 
 # Renamed modules is a mapping from old module name to new module name
 renamed_modules = {
+    # escodoo/oca
+    "account_compensate_advance": "account_invoice_advance_compensation",
     # odoo
     "coupon": "loyalty",
     "payment_test": "payment_demo",
